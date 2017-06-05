@@ -1,4 +1,4 @@
-require_relative "./configure"
+require_relative "./../configure"
 
 #問２
 def station(get_name)

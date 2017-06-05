@@ -1,4 +1,4 @@
-require_relative "./configure"
+require_relative "./../configure"
 
 #問１
 stations = Ekisuke::Station.find("川口")
