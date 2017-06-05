@@ -1,4 +1,4 @@
-require_relative "./configure"
+require_relative "./../configure"
 # 駅オブジェクトを取得して駅名表示
 get_string = gets.chomp
 stations_test = Ekisuke::Station.find(get_string)
