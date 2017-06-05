@@ -1,4 +1,4 @@
-require_relative "./configure"
+require_relative "./../configure"
 
 ekiname = gets.chomp #駅名の入力
 stations = Ekisuke::Station.find("#{ekiname}") #駅情報を取得
