@@ -1,4 +1,4 @@
-require_relative "./configure"
+require_relative "./../configure"
 
 # 駅オブジェクトを取得して駅名表示
 stations = Ekisuke::Station.find("高円寺")

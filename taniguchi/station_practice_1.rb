@@ -1,4 +1,4 @@
-require_relative "./configure"
+require_relative "./../configure"
 
 name = gets.chomp
 station_name = Ekisuke::Station.find(name)
