@@ -1,4 +1,4 @@
-require_relative "./configure"
+require_relative "./../configure"
 
 # class Input
 #   def initialize(search_num,time_num)

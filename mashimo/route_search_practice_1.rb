@@ -1,4 +1,4 @@
-require_relative "./configure"
+require_relative "./../configure"
 
 
 courses = Ekisuke::Course.search("22671:22513") # 高円寺->池袋
